@@ -9,8 +9,8 @@ return {
         n = {
           -- line break
           ["K"] = { "i<CR><Esc>", noremap = true, desc = "Insert line break" },
-          ["<leader>a"] = { "$a" },
-          ["<leader>i"] = { "0i" },
+          -- ["<leader>a"] = { "$a" },
+          -- ["<leader>i"] = { "0i" },
           ["<tab>"] = { ">>" },
           ["<S-tab>"] = { "<<" },
         },
