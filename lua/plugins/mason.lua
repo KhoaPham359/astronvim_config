@@ -10,12 +10,12 @@ return {
     opts = {
       -- Make sure to use the names found in `:Mason`
       ensure_installed = {
-        "lua-language-server",
-        "stylua",
-        "lua-language-server",
-        "typescript-language-server",
-        "tailwindcss-language-server",
-        "emmet-ls",
+        -- "lua-language-server",
+        -- "stylua",
+        -- "lua-language-server",
+        -- "typescript-language-server",
+        -- "tailwindcss-language-server",
+        -- "emmet-ls",
       },
     },
   },
