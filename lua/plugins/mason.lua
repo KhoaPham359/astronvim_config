@@ -12,8 +12,7 @@ return {
       ensure_installed = {
         "lua-language-server",
         "stylua",
-        "lua-language-server", 
-        "emmet-ls",
+        "lua-language-server",
         "typescript-language-server",
         "tailwindcss-language-server",
         "emmet-ls",

@@ -20,14 +20,15 @@ return {
           -- tables with just a `desc` key will be registered with which-key if it's installed
           -- this is useful for naming menus
           ["<Leader>b"] = { desc = "Buffers" },
+          ["<S-p>"] = { '"0p', desc = "Paste from yank register 0" },
           -- quick save
           -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
         },
         v = {
-          -- Tab to indent
           ["<Tab>"] = { ">gv", desc = "Indent selection" },
-          -- Shift+Tab to unindent
           ["<S-Tab>"] = { "<gv", desc = "Unindent selection" },
+          ["p"] = { "pgvy", desc = "Paste without losing clipboard", noremap = true },
+          ["<S-p>"] = { '"0p', desc = "Paste from yank register 0" },
         },
         t = {
           -- setting a mapping to false will disable it
