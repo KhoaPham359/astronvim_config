@@ -12,4 +12,5 @@ return {
   { import = "astrocommunity.pack.prettier" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
+  { import = "astrocommunity.pack.php" },
 }
