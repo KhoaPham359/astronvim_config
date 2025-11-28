@@ -23,6 +23,12 @@ return {
           ["<S-p>"] = { '"0p', desc = "Paste from yank register 0" },
           ["<Tab>"] = { ">>", desc = "Indent", noremap = true },
           ["<S-Tab>"] = { "<<", desc = "Unindent", noremap = true },
+          ["<C-k>"] = {
+            "i<CR><Esc>",
+            desc = "Split line at cursor",
+            noremap = true,
+            silent = true,
+          }
           -- quick save
           -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
         },
